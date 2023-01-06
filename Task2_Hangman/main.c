@@ -115,7 +115,7 @@ int main(void) {
 
     srand(time(NULL));  // seed the random number generator
 
-    int word_index = rand() % word_count;  // choose a random word
+    int word_index = rand() % word_count;  // choose random word 
 
     const char *word = words[word_index];  // get the word
 
