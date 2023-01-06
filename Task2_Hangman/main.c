@@ -133,7 +133,7 @@ int main(void) {
 
 
 
-    int mistakes = 0;  // number of mistakes made so far
+    int mistakes = 0;  // number of mistakes you made so far
 
     char tried_letters[26] = {0};  // array to store tried letters
 
@@ -161,7 +161,7 @@ int main(void) {
 
         
 
-          // check if the letter has already been tried
+          // check if the letter was already tried
 
     int already_tried = 0;
 
